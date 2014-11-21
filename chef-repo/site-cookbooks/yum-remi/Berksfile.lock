@@ -1,0 +1,9 @@
+DEPENDENCIES
+  yum-remi
+    path: .
+    metadata: true
+
+GRAPH
+  yum (3.4.0)
+  yum-remi (0.1.0)
+    yum (>= 0.0.0)

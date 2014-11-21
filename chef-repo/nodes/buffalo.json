@@ -1,0 +1,7 @@
+{
+    "run_list":[
+      "recipe[httpd]",
+      "recipe[yum-remi]",
+      "recipe[php56]"
+    ]
+}
