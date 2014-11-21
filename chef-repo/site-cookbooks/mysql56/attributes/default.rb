@@ -10,7 +10,7 @@ default['mysql']['files'] = [
     }
 ]
 default['mysql']['packages'] = [
-	# MySQL-client-community + MySQL-shared-community
+    # MySQL-client-community + MySQL-shared-community
     'mysql',
     # MySQL-server-community
     'mysql-server',
